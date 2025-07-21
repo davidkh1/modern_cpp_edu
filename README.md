@@ -7,8 +7,12 @@ Hands-on exploration of modern C++ features and patterns, focusing on concurrenc
 1. Clone the repository
 2. Open the project root in CLion
 3. CLion will automatically detect CMakeLists.txt
-4. Select any example from the run configurations dropdown
-5. Click Run to compile and execute with C++26 (or best available standard)
+4. Run any example using one of these methods:
+   - Click the green arrow next to any `main()` function (easiest!)
+   - Right-click on file → Run (if CMake loaded correctly)
+   - Select from the run configurations dropdown (top-right)
+   - Press Shift+F10 to run the current configuration
+
 
 ### Using Command Line
 ```bash
