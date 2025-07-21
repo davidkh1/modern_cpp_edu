@@ -39,3 +39,35 @@
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# CLion specific
+.idea/
+*.iml
+
+# VS Code specific
+.vscode/
+.vs/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# OS specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
